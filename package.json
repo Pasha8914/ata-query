@@ -1,14 +1,10 @@
 {
   "name": "ata-query",
-  "version": "0.2.0",
+  "version": "0.2.4",
   "description": "A simple and elegant way to build urls for your REST API",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "publish:npm": "rm -rf dist && mkdir dist && babel ./src -d dist --copy-files"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
   },
   "moduleDirectories": [
     "src"
@@ -42,15 +38,6 @@
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
-    "jest": "^24.1.0",
     "prettier": "^1.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pasha8914/cogent-js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Pasha8914/cogent-js/issues"
-  },
-  "homepage": "https://github.com/Pasha8914/cogent-js#readme"
+  }
 }
